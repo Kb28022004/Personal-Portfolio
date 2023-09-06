@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TRAVEL WEBSITE</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://kit.fontawesome.com/ebbcecd0aa.js" crossorigin="anonymous"></script>
+
+  </head>
+  <body>
+    <header id="header">
+      <div class="container">
+        <nav>
+          <img src="./images/kar4.png" class="image" />
+          <ul class="nav-items">
+            <li class="nav-item"><a class="a1" href="#header">Home</a></li>
+            <li class="nav-item">
+              <a class="a2" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="a3" href="#certificates">Certificates</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="a3" href="#portfolio">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="a3" href="#contact">Contact</a>
+            </li>
+    
+          </ul>
+        
+        </nav>
+
+        <div class="text">
+          <p>MERN Stack Developer</p>
+          <h1>I'm <span>Karan Bharti </span> <br />from Noida</h1>
+        </div>
+      </div>
+    </header>
+    <!-- .............about.................... -->
+
+    <div id="about">
+      <div class="container">
+        <div class="row">
+          <div class="about-col-1">
+            <img src="/images/kb.jpg" alt="" />
+          </div>
+          <div class="about-col-2">
+            <h1 class="sub-title">About me</h1>
+
+            <p style="font-size: 18px">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae
+              consequuntur, nisi ad adipisci dolorum natus nulla odit excepturi
+              error provident obcaecati. Quasi, nobis reiciendis tempora
+              suscipit corporis illum cum id minima mollitia iste dolore omnis
+              dolor voluptates doloremque numquam vel. Eligendi molestiae
+              delectus esse dicta iste laborum laudantium odit, aspernatur
+              praesentium voluptate, velit, temporibus porro provident.
+            </p>
+            <div class="tab-titles">
+              <div class="tab-links active-links" onclick="opentab('skills')">
+                Skills
+              </div>
+              <div class="tab-links" onclick="opentab('education')">
+                Education
+              </div>
+              <div class="tab-links" onclick="opentab('experience')">
+                Experience
+              </div>
+            </div>
+            <div class="tab-contents skill-list" id="skills">
+              <ul>
+                <li class="tab-list"><span>HTML,CSS,JAVASCRIPT</span></li>
+                <li class="tab-list"><span>NODE JS, EXPRESS JS</span></li>
+                <li class="tab-list"><span>MONGODB</span></li>
+                <li class="tab-list"><span>REACT JS</span></li>
+                <li class="tab-list"><span>GIT AND GITHUB</span></li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="experience">
+              <ul>
+                <li class="tab-list"><span> Fresher </span></li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="education">
+              <ul>
+                <li class="tab-list">
+                  <span>Pursing Graduation from <span>B.A(hons.)</span></span>
+                </li>
+                <li class="tab-list">
+                  <span>Completed 12 <sup>th</sup> with PCM in 2021</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+        <!-- ...............portfolio........... -->
+        <div id="portfolio">
+          <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+              <div class="work">
+                <img src="/images/crud.jpeg" class="image1" />
+                <div class="layer">
+                  <h2>iCollectNotes</h2>
+                  <p>
+                    It is a mern stack project in which a user can create, read,
+                    upadate and delete his notes by login into his page through jwt
+                    authentication.
+                  </p>
+                  <a href="https://github.com/Kb28022004/cloudnotebook"
+                    ><button class="btnEdit"> See it on Git Hub</button></a
+                  >
+                </div>
+              </div>
+              <div class="work">
+                <img src="/images/news.jfif" class="image2" />
+                <div class="layer">
+                  <h2>NewsGetter</h2>
+                  <p>
+                    It is a mern stack project in which you can read daily top
+                    headlines news of different categories like spors,
+                    entertainment, health etc.. of india.
+                  </p>
+                  <a href="https://github.com/Kb28022004/NewsGetter"
+                    ><button class="btnEdit"> See it on Git Hub</button></a
+                  >
+                </div>
+              </div>
+              <div class="work">
+                <img src="/images/textutils.png" class="image3" />
+                <div class="layer">
+                  <h2>PlayWithText</h2>
+                  <p>
+                    It is a mern stack project in which you can edit your text as
+                    your own way . It helps to uppercase your text, lowercase your
+                    text, copy your text, remove extra spaces and delete your text.
+                  </p>
+                  <a href="https://github.com/Kb28022004/playwithtext"
+                  ><button class="btnEdit"> See it on Git Hub</button></a
+                >
+                </div>
+              </div>
+            </div>
+           
+          </div>
+        </div>
+
+    <!-- ...........services................. -->
+    <div id="certificates">
+      <div class="container">
+        <h1 class="sub-title">My Certificates</h1>
+        <div class="services-list">
+          <div class="c1">
+            <h2>Freedom Employement Academy</h2>
+            <img src="images/fea.jpeg" class="imgEdit" alt="">
+            <p style="font-size: 1.3rem">
+             It is a one-yaar program of <strong>English,Computer,Internet Skills, Personality Development, Growth Mindset, Grit, Ethics, Collaboration & Addaptability</strong> with honors.
+            </p>
+            
+          </div>
+          <div class="c2">
+            <h2>Personality Development</h2>
+            <img src="images/pd3.jpeg" class="imgEdit" alt="">
+            <p>
+              It helps to build <strong>Confidence, Communication, Self-Understanding,Will Power, Stress Management, Dealing with difficult people, Focuse/Concentration, Leadership, Time Management and so on....</strong>
+            </p>
+          
+          </div>
+          <div class="c3">
+            <h2>Adv. Diploma in Computer Application (ADCA)</h2>
+            <img src="images/adca2.jpeg" class="imgEdit" alt="">
+            <p>
+              This course includes basic to advance Computer knowledge such as <strong> Ms word, Ms Excel, Powerpoint, 
+                Advance Ms Excel , Tally , GST, Coral Draw, Pagemaker, Photoshop and so on.....</strong>
+            </p>
+           
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+    <!-- .......contact................ -->
+    <div id="contact">
+      <div class="container">
+      <div class="row">
+
+       
+        <div class="contact-left">
+          <h1 class="sub-title">Contact me</h1>
+          
+          <div class="socail-icons">
+            <p><i class="fa-solid fa-envelope"></i> &nbsp; karanbharti28022004@gmail.com</p>
+            <p><i class="fa-brands fa-linkedin"> &nbsp;</i> <a href="https://www.linkedin.com/in/karan-bharti-3a4866264/"> https://www.linkedin.com/in/karan-bharti-3a4866264/</a></p>
+            <p><i class="fa-solid fa-phone"></i> &nbsp; 9911962250</p>
+            <p> <i class="fa-brands fa-github"> &nbsp; </i>  <a href="https://github.com/Kb28022004">https://github.com/Kb28022004</a></p>
+ 
+       
+          </div>
+<a href="Downloads/Karan's resume" download class="btn btn2">Download CV</a>        
+</div>
+        <div class="contact-right">
+          <form >
+            <input type="text" name="name" placeholder="Full Name" required>
+            <input type="email" name="email" placeholder="Email" required>
+            <textarea name="message" rows="10" placeholder="Message"></textarea>
+           
+
+              <button style="margin-left: 15px;width: 50%;" class="btn btn2" type="submit">Submit</button>
+            
+
+          </form>
+        </div>
+      </div>
+    </div>
+    <div class="copyright">
+      <p></p>
+    </div>
+    </div>  
+
+    <script>
+      var tablinks = document.getElementsByClassName("tab-links");
+      var tabcontents = document.getElementsByClassName("tab-contents");
+
+      function opentab(tabname) {
+        for (tablink of tablinks) {
+          tablink.classList.remove("active-links");
+        }
+        for (tabcontent of tabcontents) {
+          tabcontent.classList.remove("skill-list");
+        }
+        event.currentTarget.classList.add("active-links");
+        document.getElementById(tabname).classList.add("skill-list");
+        
+      }
+    </script>
+  </body>
+</html>
